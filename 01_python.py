@@ -88,8 +88,71 @@
 
 
 
+# class animal:
+#     def __init__(self,name,breed):
+#         self.name=name
+#         self.breed=breed
+
+#     def bark(self):
+#         print(f" {self.name} is barking")        
 
 
 
+# dog=animal("rafel","poodle")
+# dog1=animal("lucy","goldenretriver")
 
+# print(dog.name)
+# print(dog1.breed)
+
+# class cat(animal):
+#     def __init__(self , name):
+#         self.name=name
+#     def speak(self):
+#         print(" meow ")
+
+
+# cat1 = cat("kitty")
+# cat1.speak()
+# cat1.bark()
+
+
+# def fgh(func  ):
+#     def wrapper():
+#          print("something is happening")
+#          func()
+#          print("something had happened")
+#     return wrapper
+
+
+
+# @fgh
+# def say_hello():
+#     print(" hello")
+
+# say_hello()    
+    
+
+
+# class person:
+#     def __init__(self,name):
+#         self.name=name
+#     @property
+#     def get_name(self):
+#         print(self.name)
+#     @get_name.setter
+#     def set_name(self,new_name):
+#         self.name=new_name    
+
+# p1 = person("alice")
+# p1.get_name
+# p1.name="bob"
+# p1.get_name
+
+
+
+# try:
+#     num=int((input("enter a number ")))
+#     result = 10/num
+# except Exception as e:
+#     print(f" error is :{e}")
 
